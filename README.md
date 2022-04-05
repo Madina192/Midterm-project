@@ -1,4 +1,5 @@
 # Midterm-project
+# Game of life
 # Rules
 
 Each cell can be in one of four states:
