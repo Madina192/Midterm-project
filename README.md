@@ -9,10 +9,10 @@ electron tail
 
 The simulation proceeds in discrete steps. Each step changes the cells in the following ways:
 
-empty → empty
-electron head → electron tail
-electron tail → conductor
-conductor → Electron head if one or two neighboring cells are electron heads, else it remains a conductor. 
+#__empty → empty
+#__electron head → electron tail
+#__electron tail → conductor
+#__conductor → Electron head if one or two neighboring cells are electron heads, else it remains a conductor. 
 A cell neighbors another if it is orthogonally or diagonally adjacent (Moore neighborhood).
 
 Run worldwire.py to start it. Requires Python 3.
