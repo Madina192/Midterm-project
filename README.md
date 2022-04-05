@@ -1,1 +1,2 @@
 # Midterm-project
+# Rules
